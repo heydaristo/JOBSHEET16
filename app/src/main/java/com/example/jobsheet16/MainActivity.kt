@@ -23,8 +23,6 @@ class MainActivity : AppCompatActivity() {
                 })
                 .setPositiveButton("Ya", DialogInterface.OnClickListener { dialogInterface, i ->
                 })
-                .setNegativeButton("No", DialogInterface.OnClickListener { dialogInterface, i ->
-                })
                 .show()
         }
 
@@ -42,8 +40,7 @@ class MainActivity : AppCompatActivity() {
                     })
                 .setNegativeButton("Batal",
                     DialogInterface.OnClickListener { dialogInterface, i ->
-                    })
-                .show()
+                    }) .show()
         }
     }
 }
